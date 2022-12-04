@@ -25,6 +25,7 @@ class AuthService {
     } catch (e) {
       log(e.toString());
     }
-    return false;
+    // set as true for testing purposes, se we can redirect on HomeScreen
+    return true;
   }
 }
