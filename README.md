@@ -1,16 +1,13 @@
-# doctor_app
+This is Doctor app created using Flutter Node.js and Mongo db
+To start app do the next steps:
+1 Open new terminal and run command flutter run
+2 To start our back-end move to server folder open integrated terminal run command npm install, than run
+node index.js
 
-A new Flutter project.
+Because of my machine specifications I was not able to complitely finish the task
+currently only login and redirecting to home page works
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The goal was to add jwt so we can authorize if user is loged in correctly.
+Also data on home screen is currently static but idea was to create Colection in db with Patient info which would contain propertie called patientForToday and patientForTomorrow which would be boolean values based on which we would know in which category patient belongs and our representation would like as per
+requested.
+More to be done was to separate our components and make them more useable.
